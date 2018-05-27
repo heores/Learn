@@ -1,4 +1,11 @@
-public class wine {
+/*
+ * 
+ * 这是一个计算可以喝多少酒的程序
+ * 
+ * 
+ * 
+ */
+public class Ch1_1_8 {
 
 	/**
 	 * @param args
@@ -23,10 +30,4 @@ public class wine {
 		}
 		return 0;
 	}
-}
-
-class Test{
-	public static void main(String[] args){
-	System.out.println("hello world!");
-}
 }
