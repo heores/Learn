@@ -17,7 +17,7 @@ public class Dog {
 		return baring;
 		
 	}
-
+ 
 	public String getFlag() {
 		return flag;
 	}
@@ -44,9 +44,9 @@ public class Dog {
 	}
 	
 	
-	public Dog(String Breed,String Color){
-		breed=Breed;
-		color=Color;
+	public Dog(String breed,String color){
+		this.breed=breed;
+		this.color=color;
 		//System.out.println("我家小狗的品种为 : " + breed );
 		//System.out.println("我家小狗的颜色为 : " + color );
 		
@@ -81,6 +81,7 @@ public class Dog {
 		System.out.println("颜色是 :" + my1Dog.color );
 		System.out.println("它正在 :" + my1Dog.getSleep());
 		System.out.println("它现在 :" + my1Dog.getHungry());
+		System.out.println("它现在 :" + my1Dog.flag);
 		System.out.println("\n" );
 		
 		Dog my2Dog = new Dog("牧羊犬","黑色");

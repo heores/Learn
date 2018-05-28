@@ -1,0 +1,7 @@
+不带包的java文件编译命令
+javac Helloworld.java
+java Helloworld
+
+带包com.java的java文件编译命令
+javac -d . Helloworld.java
+java com.java.Helloworld

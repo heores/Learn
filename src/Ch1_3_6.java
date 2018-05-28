@@ -1,3 +1,8 @@
+/*
+ * 
+ * 初步了解方法和放调用
+ * 
+ */
 public class Ch1_3_6{
 	public static void main(String []args){
 		m1();
