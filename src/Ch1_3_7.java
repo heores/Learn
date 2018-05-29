@@ -60,10 +60,14 @@ class TestF{
  */
 class TestT {
 	public static void main(String[] args) {
-		System.out.println(m(-5));
+		TestT x=new TestT();
+		System.out.println(x.m(40));
+		//System.out.println(m(40));
 	}
-
-	public static long m(int n) {
+	//注释部分加了static可以直接调用
+	//未注释部分不加static只能创建一个对象访问方法
+	//public static long m(int n) {
+	public long m(int n) {
 		
 		if(n<1){
 			System.out.println("请输入大于0的数值");

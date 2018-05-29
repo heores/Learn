@@ -93,7 +93,7 @@ public class Dog {
 		
 		Dog my3Dog = new Dog("哈士奇","灰色");
 		System.out.println("我家最大的小狗的年龄是" +Dog.tig(2, 5) + "岁");//静态方法类可以直接调用 
-		System.out.println("我家最大的小狗的年龄是" +my3Dog.tig(2, 5) + "岁");//静态方法不建议实例直接调用 
+		//System.out.println("我家最大的小狗的年龄是" +my3Dog.tig(2, 5) + "岁");//静态方法不建议实例直接调用 
 		System.out.println("我家最大的小狗的年龄是" +tig(2, 5) + "岁");//静态方法可以直接调用
 		//System.out.println("我家最大的小狗的年龄是" +fig(2, 5) + "岁");//非静态方法不可以直接调用会出错
 		System.out.println("我家最大的小狗的年龄是" +my3Dog.fig(2, 5) + "岁");//非静态方法通过实例访问

@@ -21,5 +21,7 @@ public class Ch1_1_1 {
 			//一行结束换行
 			System.out.printf("\n");
 		}
+		
 	}
+	
 }
